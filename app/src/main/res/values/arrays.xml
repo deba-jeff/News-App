@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="order_by_entries_labels">
+        <item> Newest </item>
+        <item> Oldest </item>
+        <item> Most Relevant </item>
+    </string-array>
+
+    <string-array name="order_by_entry_values">
+        <item> newest </item>
+        <item> oldest </item>
+        <item> relevance </item>
+    </string-array>
+
+
+    <string-array name="section_entries_labels">
+        <item> All Sections </item>
+        <item> Art and Design </item>
+        <item> Australia News </item>
+        <item> Books </item>
+        <item> Business </item>
+        <item> Culture </item>
+        <item> Education </item>
+        <item> Environment </item>
+        <item> Fashion </item>
+        <item> Football </item>
+        <item> Life and Style </item>
+        <item> Music </item>
+        <item> News </item>
+        <item> Politics </item>
+        <item> Science </item>
+        <item> Society </item>
+        <item> Sport </item>
+        <item> Technology </item>
+        <item> UK News </item>
+        <item> US News </item>
+        <item> World News </item>
+    </string-array>
+
+    <string-array name="section_entry_values">
+        <item> all sections </item>
+        <item> artanddesign </item>
+        <item> australia-news </item>
+        <item> books </item>
+        <item> business </item>
+        <item> culture </item>
+        <item> education </item>
+        <item> environment </item>
+        <item> fashion </item>
+        <item> football </item>
+        <item> lifeandstyle </item>
+        <item> music </item>
+        <item> news </item>
+        <item> politics </item>
+        <item> science </item>
+        <item> society </item>
+        <item> sport </item>
+        <item> technology </item>
+        <item> uk-news </item>
+        <item> us-news </item>
+        <item> world </item>
+    </string-array>
+
+
+</resources>

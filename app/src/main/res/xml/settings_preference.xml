@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+
+    <EditTextPreference
+        android:defaultValue="10"
+        android:inputType="numberSigned"
+        android:key="page_size_key"
+        android:selectAllOnFocus="true"
+        android:title="Page Size" />
+
+    <ListPreference
+        android:defaultValue="newest"
+        android:entries="@array/order_by_entries_labels"
+        android:entryValues="@array/order_by_entry_values"
+        android:key="order_by_key"
+        android:title="Order By" />
+
+    <ListPreference
+        android:title="Sections"
+        android:defaultValue="all sections"
+        android:key="section_key"
+        android:entries="@array/section_entries_labels"
+        android:entryValues="@array/section_entry_values"/>
+
+</PreferenceScreen>

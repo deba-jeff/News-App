@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="settings_String">Settings</string>
+</resources>

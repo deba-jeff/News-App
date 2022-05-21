@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/newsImage"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/guardian_logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/newsHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/newsImage"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/dark_grey"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        tools:text="UK coronavirus live: trial of revamped contact-tracing app starts; NHS England wait lists longest ever" />
+
+    <TextView
+        android:id="@+id/writer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newsHeading"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@+id/newsImage"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textStyle="italic"
+        tools:text="Andrei Makine" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/writer"
+        android:layout_toEndOf="@id/newsImage"
+        android:fontFamily="sans-serif-medium"
+        tools:text="Feb 11, 2018" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toEndOf="@+id/newsImage"
+        android:layout_below="@+id/date">
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            tools:text="10:55 PM"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:id="@+id/newsType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="end"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            tools:text="World news"
+            android:textColor="@color/Big_Dip_O_Ruby"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>
